@@ -53,8 +53,8 @@ bool isScreenSharing=false;
   }
 _joinChannel();
   }
-  //String baseUrl="https://talk-me-app-4791f.web.app";
-   String baseUrl="https://main--elaborate-liger-2eeac3.netlify.app";
+  
+   String baseUrl="";// Add your own BaseUrl
   String ? token;
   Future<void>getToken() async{
    //http.get(Url.parse(baseUrl));
