@@ -18,10 +18,10 @@ void main() async{
   if(kIsWeb){
         await Firebase.initializeApp(
         options: const FirebaseOptions(
-        apiKey: "AIzaSyBWg5kNHRxangY_SEfKZhUB0CDAqOOEaIw",
-        appId: "1:625435038811:android:71d6078ed0f8cc995e9b7e",
-        messagingSenderId: "625435038811",
-        projectId: "talk-me-app-4791f"
+        apiKey: "",//add your own appkey
+        appId: "",//Add your own appId
+        messagingSenderId: "",//add your own messagingSenderId
+        projectId: "" // add your own ProjectId
    ),
   );}
   else{
